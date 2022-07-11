@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\gaming1.cross-cutting\gaming1.crossCutting.csproj" />
+    <ProjectReference Include="..\gaming1.iexecutor\gaming1.iexecutor.csproj" />
+  </ItemGroup>
+
+</Project>
